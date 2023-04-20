@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Login </title>
+
+    <style>
+
+        #body
+        {
+
+             background-color:  rgb(255, 183, 27);
+             background-image: url('library.jpg');
+        }
+        #divB
+        {
+            text-align: center;
+            
+            margin-left: 400px;
+       
+            margin-top: 130px;
+            border: 1px solid white;
+            width:40%;
+            height:280px;
+           
+            background-color: grey;
+           
+
+           
+        }
+
+       .allbuttons
+       {
+        color: white;
+            width: 170px;
+            height: 30px;
+           background-color: blue;
+            border: none;
+       
+       }
+       
+      
+		
+		.allbuttons:hover {
+		
+		cursor:pointer;
+		color:orange;
+	
+			}
+       
+        
+        
+       
+
+       
+      
+    </style>
+</head>
+<body id="body">
+    
+    <div id="divB">
+
+
+    <h1 >Library Management System</h1>
+
+<a href="student.html" ><button class="allbuttons" >Add Student</button></a> <br><br>
+
+<form action="AllStudentDataController" method="get">
+
+<button type="submit" class="allbuttons">View Students</button><br><br>
+
+</form>
+
+
+<a href="book.html"><button class="allbuttons">Add Book</button></a> <br><br>
+
+<form action="AllBookDataController" method="get">
+
+<button type="submit" class="allbuttons">View Books</button>
+
+</form>
+        
+        
+       
+
+    </div>
+
+
+
+
+</body>
+</html>
